@@ -2,11 +2,20 @@
 
 # Project Brief
 
-This project analyzes ATM transaction data to understand customer withdrawal patterns and identify unusual or suspicious activity.
-I cleaned the raw dataset, prepared the data using Power Query, and built an interactive Power BI dashboard showing key metrics like
-total withdrawal amounts, number of ATM transactions, unique card usage, and recurring customer behavior.
+This project looks at ATM transaction data to understand customer behavior and spot unusual activity. I cleaned and prepared the data in Power BI, then built a dashboard showing total withdrawals, transaction counts, and top locations with high ATM usage. It also highlights suspicious activity, making it easier to identify unusual spikes and monitor ATM performance.
 
-The dashboard highlights top states and cities with the highest ATM activity, compares ATM counts across countries, 
-and visualizes suspicious-activity flags to help identify regions with unusual spikes. 
-This project demonstrates how Power BI can be used for data cleaning, analysis, and real-time decision-making for ATM performance monitoring.
+# Dataset Description
 
+ATM ID, location (city/state/country),
+Withdrawal amount and count,
+Unique card and customer information,
+Date/time of transactions,
+Suspicious activity flag.
+
+# Business Problem:
+
+Banks and ATM operators need to monitor ATM usage to understand customer demand, track withdrawal patterns, and detect suspicious activity. Without proper monitoring, fraud, cash shortages, or operational issues can go unnoticed.
+
+# Solution Provided:
+
+I cleaned the raw dataset, prepared the data in Power Query, and created an interactive Power BI dashboard. It includes KPIs, state/city breakdowns, suspicious activity visuals, and ATM distribution to help identify high-activity areas and unusual behavior.
