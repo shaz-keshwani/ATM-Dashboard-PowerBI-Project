@@ -21,13 +21,17 @@ Leaders need to know which ATMs are high performing, which are underused, and wh
 # Solution provided:
 The raw transaction file was cleaned into a structured “cleaned_data.csv” with consistent dates, numeric types, locations, and a clear suspicious_activity_flag. A Power BI dashboard was built to track ATM performance, usage trends, and suspicious activity across locations and time.
 
-# Main solution elements:
+## Main solution elements:
 Data cleaning: fixed missing values, standardized location fields, validated amounts and counts.
 Feature engineering: average withdrawal and deposit amounts, flags for zero-activity ATMs, and suspicious behavior.
 Power BI visuals: KPI cards, bar charts by city and country, line charts over time, and tables highlighting ATMs with issues or extreme activity.
 
 ## Usage insights
 Some ATMs are very busy (many withdrawals, high amounts, many cards used). These are in strong locations and must always have enough cash.
-
 Some ATMs are very quiet or show zero activity. These might be new, under maintenance, or in bad locations and may need action
+
+## Cash and customer patterns
+Busy ATMs tell the bank where cash demand is highest, so they can plan refills better.
+Dates and notes show spikes on paydays, weekends, and events, which helps plan for short-term high traffic.
+
 
